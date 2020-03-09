@@ -11,7 +11,7 @@ Second, a ASCII chart is recommended. Brainfuck uses ASCII to print out characte
 
 ## Commands
 Brainfuck is known to be extremely minimalistic, with only 8 operators. In Brainfuck, there are containers, called blocks. These blocks can store one number, in ASCII format. A pointer indicates which block is being edited.
-```>``` = This moves the pointer one block to the right
+```>``` = This moves the pointer one block to the right \n
 ```<``` = This moves the pointer one block to the left
 ```+``` = This increases the value in the block by one
 ```-``` = This decreases the value in the block by one
