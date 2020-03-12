@@ -24,3 +24,7 @@ Brainfuck is known to be extremely minimalistic, with only 8 operators. In Brain
 - When the program starts, all blocks are set to zero
 - The pointer always starts at the leftmost block
 - Anything that isn't one of the 8 operators will be treated as a comment
+
+
+##Chapter 1: Writing out "Hello World"
+
