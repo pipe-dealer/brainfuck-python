@@ -15,14 +15,21 @@ Brainfuck is known to be extremely minimalistic, with only 8 operators. In Brain
 , = inputs one character
 . = prints one character
 ```
+
+
+## GETTING STARTED
+To run this program, you obviously need Python... and that's it. I've added a few custom commands, to make it easier to use:
+```
+help  = displays the commands and their function
+clear = resets all values in containers to zero
+exit  = exits the program
+```
 #### IMPORTANT
 - When the program starts, all blocks are set to zero
 - The pointer always starts at the leftmost block
 - Anything that isn't one of the 8 operators will be treated as a comment
 
-## GETTING STARTED
-To run this program, you obviously need Python... and that's it. I've added a few custom commands, to make it easier to use:
-```help```  = displays the commands and their function
-```clear``` = resets all values in containers to zero
-```exit```  = exits the program
+## TO-DO
+* Add a GUI interface
 
+This is my first project I've shared so if there's anything that I need to improve or change, don't hesitate to contact me!
