@@ -1,5 +1,4 @@
 #BRAINFUCK COMPILER IN PYTHON
-#9/3/2020 - 28/5/2020
 
 import os
 import time
