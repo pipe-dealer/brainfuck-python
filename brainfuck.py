@@ -1,5 +1,6 @@
 #BRAINFUCK COMPILER IN PYTHON
 
+
 import os
 import time
 
@@ -47,23 +48,29 @@ while True:
 	for i in user:
 		#loops
 		if i == "[":
+
 			pos1 = user.find("[")
 			pos2 = user.find("]")
 			loop_pos = count
+
 			while c[count] != 1:
+
 				#only runs the commands inside the brackets
 				for x in range(pos1, pos2+1):
+
 					#if current container is zero, remove all commands and exit the loop
 					if c[count] == 1:
-						for u in range(pos1, pos2+1):
-							user.replace(user[u],"")
+						user = user[pos2+1:]
 						break
 
 					if user[x] == ">":
+
 						loop_pos += 1
 						if loop_pos >= len(c):
+
 							c.extend(empty * ((loop_pos) - (len(c) - 1)))
 					elif user[x] == "<":
+
 						loop_pos -= 1
 					elif user[x] == "+":
 						c[loop_pos] += 1
